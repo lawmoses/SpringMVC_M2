@@ -17,7 +17,7 @@
 
 	<!-- 콘트롤러 자바소스 필요 없이 /index 하면 index로 보내준다. view밑에 있는 것  -->
 	<mvc:view-controller path="/index2" view-name="index2"/>
-
+	<mvc:view-controller path="/index" view-name="index"/>
 
 	<!-- ??? 디폴트 핸들러로 하겠다는 것임 -->
 	<mvc:default-servlet-handler/>
